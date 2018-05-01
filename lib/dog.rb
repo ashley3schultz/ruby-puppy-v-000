@@ -10,6 +10,6 @@ class Dog
   
   def self.all
     @@all.each {|pup|
-    puts self.pup
+    puts self.pup}
   end
 end 
