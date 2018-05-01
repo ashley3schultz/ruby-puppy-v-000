@@ -10,7 +10,7 @@ class Dog
   end 
   
   def self.all
-    @@all.each {|pup| pup}
+    @@all.each {|pup| pup.name}
   end
   
   def self.clear_all
